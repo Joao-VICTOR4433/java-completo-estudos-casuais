@@ -8,8 +8,8 @@ public class exerciciowhile {
         String continuar=leitor.next();
         while(continuar.equalsIgnoreCase("s")){
             //continuar enquanto digitar "S"
-            int temperatura=(9*celcius)/5+32;
-            System.out.printf("A sua temperatura em Fahrenheit foi %d",temperatura);
+            douuble temperatura=(9.0*celcius)/5.0+32;
+            System.out.printf("A sua temperatura em Fahrenheit foi %.1f",temperatura);
             System.out.println("\nDigite s para continuar o programa e n parar sair: ");
             continuar=leitor.next();
             if (continuar.equalsIgnoreCase("s")){
