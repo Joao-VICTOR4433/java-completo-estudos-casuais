@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class jv {
+    public static void main(String[]args){
+        Scanner leitor=new Scanner(System.in);
+        int x=leitor.nextInt();
+        while (x<100){
+            x=leitor.nextInt();
+            if (x<100){
+                System.out.println("TENTE NOVAMENTE");
+            }
+        }
+
+        leitor.close();
+        System.out.println("CONSEGUIU");
+
+
+    }
+}
