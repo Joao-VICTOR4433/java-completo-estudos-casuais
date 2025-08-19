@@ -1,0 +1,17 @@
+package org.example;
+
+public class armario {
+    public static void main(String[]args){
+        int contador=1;
+        while (contador<=50){
+            System.out.println(contador);
+            contador++;
+        }
+        int gols=0;
+        while (gols<=7){
+            System.out.println("Gol da Alemanhã\n"+gols);
+            gols++;
+        }
+    }
+
+}c
