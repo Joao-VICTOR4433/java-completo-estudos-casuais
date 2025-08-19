@@ -1,0 +1,25 @@
+for(inicio;condicição;incremento)
+//import java.util.Scanner;
+public class forange {
+    public static void main (String[]args){
+        //Scanner leitor=new Scanner(System.in);
+        //String nome=leitor.next();
+        //int x=leitor.nextDouble();
+        //String nome=leitor.next();//vai ate o espaço exemplo "joao victor" so pega o "joao"
+        //String nomecompleto=leitor.nextLine();//Le tudo ate os espaços "joao victor nogueira" ele pega tudo "joao victor nogueira"
+        //for (inicial=primeiro ou inicio do for;ultimo;incremento=o que vai somar depois da ultima){
+        //exemplo for(int i=1= inicio;i<5=enquanto i for menor que 5;i++ adiciona)
+        //exemplo pra subtrair for(int i=1;i>=0;i--){
+         //for (int i=0;i<n;i=i+1)// ou no lugar de i=i+i pode ser i++
+        for(int i=10;i>0;i--){
+            //for(int i=10;i>0 enquanto i for maior que 0;i--){
+            //for(int i=10;i>=0 enquanto nao for igual a 0;i--){
+            System.out.println("O valor de i é "+i);
+        }
+        for(int numero=0;numero<10;numero=numero+2){
+            System.out.println("Soma mais 2, o valor foi "+numero);
+        }
+
+
+    }
+}
