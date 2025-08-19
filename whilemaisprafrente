@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class whilemaiscon {
+    public static void main(String [] args){
+        Scanner leitor= new Scanner(System.in);
+        System.out.println("Digite seu número: ");
+        int x=leitor.nextInt();
+        int somador=0;
+        while (somador<100){
+            somador=somador+x;
+            if(somador<100) {
+                System.out.printf("A soma não é maior que 100,o somador é %d",somador);
+            System.out.println("\n Digite seu número: ");
+                x=leitor.nextInt();
+
+            }
+            if (somador<100){
+                System.out.printf("A soma passou de 100, o seu somador alcançou %d",somador);
+            }
+        }
+        leitor.close();
+        System.out.printf("\nO somador final foi %d",somador);
+    }
+}
