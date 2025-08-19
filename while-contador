@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class whilecomcontador {
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+        int soma = 0;
+
+        int x = leitor.nextInt(); // primeiro número
+        while (x != 0) {
+            soma = soma + x;
+            System.out.printf("O valor foi %d\n", soma); // \n quebra a linha
+            x = leitor.nextInt(); // lê outro número
+        }
+
+        leitor.close(); // precisa ficar dentro do main
+    }
+}
