@@ -1,0 +1,25 @@
+package org.example;
+
+public class cliente {
+    private String clientee;
+    private double saldo;
+    private int cadastrato;
+    public cliente(String clientee,double saldo,int cadastrato){
+        this.clientee=clientee;
+        this.saldo=saldo;
+        this.cadastrato=cadastrato;
+    }
+    public String getCliente(){
+        return clientee;
+    }
+    public void setSaldo(double saldo){
+        this.saldo=saldo-5;
+    }
+    public int getCadastrato(){
+        return cadastrato;
+    }
+    @Override
+    public String toString(){
+        return "O nome do cliente é"+clientee+"\no saldo é:"+saldo+"\no cadastro:"+cadastrato;
+    }
+}
