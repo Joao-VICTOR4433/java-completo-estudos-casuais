@@ -1,0 +1,12 @@
+package org.example;
+import java.util.ArrayList;
+public class arraylist {
+    public static void main(String[]args){
+        ArrayList <Double> nomes=new ArrayList<>();
+        nomes.add(3.4);
+        nomes.add(5.5);
+        System.out.println("Alunos aprovados:"+nomes);
+        System.out.println(nomes.size());
+        System.out.println(nomes.get(0)+","+nomes.get(1));
+    }
+}
