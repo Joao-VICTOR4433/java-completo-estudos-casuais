@@ -1,0 +1,18 @@
+package org.example;
+
+public class VOCEVAIPASSAR {
+    private String nome;
+    private int idade;
+    public VOCEVAIPASSAR(String nome,int idade){
+        this.nome=nome;
+        this.idade=idade;
+
+    }
+    public String getNome(){
+        return nome;//apenas le o valor privado,mas nao altera
+    }
+    public void setNome(String novoNome){
+        this.nome=novoNome; //muda o atributo privado
+    }
+
+}
